@@ -1,0 +1,61 @@
+#Python input:
+#nome = input("Digite seu nome")
+#print(nome)
+
+#idade=input("Digite sua idade")
+#print(type(idade))
+
+#Importante fornecer o tipo de input(int, float, boo,str etc) para manipulação de dados:
+#salario=int(input('Salario?='))
+#imposto=float(input('Digite o imposto='))
+
+#sal=float(input("salário?"))
+#print(sal)
+
+#print("a quantidade de de %s é de %d, maso salário é %f "%("Bananas", 10, 1255.10))
+#idade1 = 10
+#idade2 = 12
+#filho = 2
+#print("Eu tenho %d filhos, ambos de %d e %d anos" % (filho, idade1, idade2))
+#print("Eu tenho %d filhos, ambos de %d e %d anos" % (2,10,12))
+#print("Eu tenho", filho, "filhos, ambos de", idade1, "e", idade2, "anos")
+#print("Eu tenho 2 filhos, ambos de 10 e 12 anos")
+#z = 1755/111
+#print ("%.4f" % z)
+ #%d - inteiro
+ #%s - string
+ #%f - float
+ #%b - bool
+
+# a= "Raquel"
+# b= "Santos"
+# print("Prezada "+a+ " "+b+"." +" Olá!")
+#print(10*"Raquel\n")
+
+# print("+"+ 10* "-" + "+")
+# print(("|"+" "*10 +"|\n")*5, end="")
+# print("+" + 10* "-" + "+")
+       
+# print(3*" "+  "." + " ")
+# print(" "+ 4* "." + " ")     
+# print("/"+ 4* "_" + "\\")
+# print(("|"+" "*4 +"|\n")*4, end="")
+# print("." + 4* "_" + ".")
+
+#Formatação de Strings:
+# frase="valor{0},{0},{0}"
+# format(2024)
+
+# frase = "Um triângulo de base igual a {0} e altura igual a {1} possui área igual a {2}.".format(3,4,12)
+# print(frase)
+
+# print(f"texto{variavel}")
+
+# linguagem = "Python"
+# f"Programando em {linguagem}"
+# print(f"Programando em {linguagem}")
+
+# x = (2/3)
+
+#Faça um programa que receba uma uma temperatura e transforme de Fahrenheit para Celsius. A formula de conversão de Fahrenheit para Celsiusé a seguinte: C= (5/9)*(F-32)
+c=(5/9)
