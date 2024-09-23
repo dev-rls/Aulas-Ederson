@@ -48,3 +48,4 @@ altura = 1.62
 imc = peso / altura **2
 print(imc)
 
+print ()
