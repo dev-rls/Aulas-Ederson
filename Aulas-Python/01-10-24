@@ -6,7 +6,7 @@ x="Raquel"
 y=["Raquel", 15, 20, 23]
 
 #Existem várias maneiras de ser criar uma nova lista. A maneira mais simples é envolver os elementos da lista por [].
-#O primeiro exemplo é uma lista de quatro inteiros. Osegundo é uma lista de três strings. Como dissemos anteriormente, os elementos de uma lista não precisamser do mesmo tipo.
+#O primeiro exemplo é uma lista de quatro inteiros. O segundo é uma lista de três strings. Como dissemos anteriormente, os elementos de uma lista não precisam ser do mesmo tipo.
 lista1 = [10, 20, 40]
 lista2 =["spam", "bungee", "swallow"]
 print(lista1, lista2)
@@ -90,4 +90,7 @@ print(max(a))
 print(min(a)) 
 print(sum(a)) 
 
- # Crie a seguinte lista: Lista = [1,2,1,5,6,3,1]
+ # Crie a seguinte lista: Lista = [1,2,1,5,6,3,1]. Mostre quantas vezes o número 1 apareceu.
+lista = [1,2,1,5,6,4,3,1]
+print(lista)
+print(lista.count(1))
