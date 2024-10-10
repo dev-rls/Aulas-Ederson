@@ -21,8 +21,8 @@ else:
 # # # mensagens: ACESSO PERMITIDO caso a senha seja válida. ACESSO NEGADO caso a senha seja inválida.
 
 
-# senha = int(input("Digite sua senha: "))
-if senha==1234:
+senha = int(input("Digite sua senha: "))
+if senha==1234: 
     print("ACESSO PERMITIDO")
 else:
      print("ACESSO NEGADO")
