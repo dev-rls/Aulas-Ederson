@@ -1,0 +1,120 @@
+# # # Função len:  
+a= "Raquel"
+print(len(a))
+
+# # # Função capitalize: transforma a primeira letra da palavra em maiusculo.
+a= "raquel"
+print(a.capitalize())
+
+# # # Função upper: transforma todo o texto em maiúsculo.
+a="raquel"
+print(a.upper())
+
+# # # Função casefold: transforma todo o texto em minúsculo.
+a="RAQUEL"
+print(a.casefold())
+
+# # # Função lower: transforma todo o texto em minúsculo.
+a="RAQUEL"
+print(a.lower())
+
+# # # Função islower: Identifica se todo texto está em minusculo.
+a="RAQUEL"
+print(a.islower())
+
+# # # Função isupper: Identifica se todo texto está em maiúsculo.
+a="RAQUEL"
+print(a.isupper())
+
+# # # Função isdigit: Verifica se uma string só possui números inteiros.
+# #True:
+a='12345'
+print(a.isdigit())
+
+# # #False:
+a='123abc'
+print(a.isdigit())
+
+# # # Função replace: serve para troca todas as ocorrencias de uma substring por outra em uma string.
+a= "Raquel Santos"
+print(a.replace("Santos", "Lemos"))
+
+# # # Função split: o metódo split(sep) separa uma string usando sep como separador.
+# # Retorna uma lista 
+a="Raquel-Lemos-Santos"
+print(a.split("-"))
+
+# # #Função find: retorna onde a substring começa na string ("Primeira").
+a="Raquel Lemos Santos"
+print(a.find("Santos"))
+
+# # # Função in: verifica se uma substring é parte de outra string.
+a="Raquel Lemos Santos"
+print("Santos" in a)
+
+# # # Função count: retorna a frequencia de ocorrencia do parâmetro passado.
+a="Raquel Lemos Santos"
+print(a.count("o"))
+
+# # # O índice sempre inicia do zero.
+s= "Olá. mundo!"
+print(s[0])
+print(s[2])
+print(s[6])
+
+# # # Pode fazer a contagem com os números negativos(-1) começando pela esquerda, e os positivos direita iniciando com (0).
+s= "Olá. mundo!"
+print(s[-11])
+print(s[-9])
+print(s[-5])
+
+# # #Limitador - islower
+s="Olá, mundo"
+print(s[1:3]) 
+
+# # #[inicio:fim] 
+# # #[ :5] [0: ]
+
+# # # Se omitirmos o índice de da fatia ou o de final da (ou ambos), o início e o final da string serão considerados, respectivamente.
+s="Olá, mundo!"
+print(s[:3])
+
+# # #Ex.01 Strings
+# # # Escrever um programa na linguagem Python que conte o número de palavras em um texto. Como entrada, um texto será digitado de forma interativa no teclado. Como saída será
+# # # impresso o texto, bem como a quantidade de caracteres desse texto.
+
+texto=input("Escreva um texto: ")
+print(len(texto))
+
+# # #Ex.02 Strings
+# # # Tamanho de strings. Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento.
+txt=input("Escreva um texto: ")
+print(len(txt))
+txt2=input("Escreva um texto: ")
+print(len(txt2))
+
+# #Ex.03 Strings
+# # Faça um programa que leia um nome e imprima as 4 primeiras letra do nome
+txt=input("Digite seu nome: ")
+print(txt[0:4])
+
+# #Ex.05 Strings
+# # Faça um programa que leia um nome e imprima apenas a letra do primeiro nome em maiúsculo.
+nome=input("Digite seu nome: ")
+print(nome.capitalize())
+
+# #Ex.06 Strings
+# # Faça um programa que leia um nome e imprima todo em maiúsculo.
+
+nome=input("Digite seu nome: ")
+print(nome.casefold())
+
+#Ex.07 Strings
+# Faça um programa que leia um nome completo de uma pessoa e imprima do índice 0 ao índice 8(inclusive)
+nome=input("Digite seu nome: ")
+print(nome[0:8]) 
+
+#Ex 08
+# Faça um programa que leia um nome completo de uma pessoa e imprima a frequencia de ocorrencia da letra a.
+
+

@@ -59,6 +59,8 @@ decrescente = lista_temperaturas.sort(lista_temperaturas,reverse=True)
 # nov = ["nov", 10, 15]
 # dez = ["dez", 17, 24]
 
+#lista.sort()
+
 # temp = [jan, fev, mar, abr, mai, jun, jul, ago]
 # print(temp)   
 # print(max(temp)) 

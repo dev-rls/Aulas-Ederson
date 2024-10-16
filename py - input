@@ -51,11 +51,11 @@
 
 # print(f"texto{variavel}")
 
-# linguagem = "Python"
-# f"Programando em {linguagem}"
-# print(f"Programando em {linguagem}")
+linguagem = "Python"
+f"Programando em {linguagem}"
+print(f"Programando em {linguagem}")
 
-# x = (2/3)
+x = (2/3)
 
 #Faça um programa que receba uma uma temperatura e transforme de Fahrenheit para Celsius. A formula de conversão de Fahrenheit para Celsiusé a seguinte: C= (5/9)*(F-32)
 c=(5/9)
