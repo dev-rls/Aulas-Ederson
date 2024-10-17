@@ -22,11 +22,11 @@ elif opcao == 4:
  adm=int(input("1.Nome\n" "2.CPF\n" "3.Fone\n""4.Sexo\n"))
  nome=input("Digite seu nome: ")
  cpf=int(input("digite seu cpf: "))
- fone=int(input("Digite seu telefone: "))
+ telefone=int(input("Digite seu telefone: "))
 
  print(nome)
  print(cpf)
- print(fone)
+ print(telefone)
 
 elif opcao == 5:
  sair=int(input("Sessão Encerrada"))
