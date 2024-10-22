@@ -123,12 +123,26 @@ elif count == 1 or count == 0:
 
 # Gasolina: até 20 litros, desconto de 4% por litro acima de 20 litros, desconto de 6% por litro.
 # Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível(codificado da seguinte forma: A-ácool, G-gasolina), calcule 
-# e imprima o valor a ser pago cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
+# e imprima o valor a ser pago cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.alcool = 1.90
 
-a = float(input("Quantidade de álcool abastecido?: "))
-g = float(input("Quantidade de gasolina abastecida?: "))
+alcool = 1.90
+gasolina = 2.50
 
-count=0
+combustivel = input("Digite o tipo de combustível ( A para álcool, G para gasolina): ")
+litros_vendidos = float(input("Digite o número de litros vendidos: "))
+
+if combustivel == 'A':
+ if litros_vendidos < 20:
+    desconto = 0.03
+else:
+    desconto = 0.05
+    preco_litro = alcool
+
+    if combustivel == 'G':
+        desconto = 0.04
+    else:
+        desconto = 0.06
+        
 
 
 
