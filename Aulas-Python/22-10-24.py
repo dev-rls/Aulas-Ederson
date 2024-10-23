@@ -78,3 +78,38 @@ while True:
 # * Total de votos para cada candidato;
 # * Total de votos nulos;
 # * Total de votos brancos;
+votos_c1 == 0
+votos_c2 == 0
+votos_c3 == 0
+votos_c4 == 0
+nulos == 0
+brancos == 0
+
+while True:
+    voto = int(input("Digite o número do candidato (0 para finalizar): "))
+    if voto == 0:
+        print("Sessão finalizada")
+        break
+         if voto == 1:
+            votos_c1 = votos_c1 +1
+
+            elif voto == 2:
+                votos_c2 = votos_c2 +1
+            elif voto == 3:
+                votos_c3 = votos_c3 +1
+            elif voto == 4:
+                votos_c4 = votos_c4 +1
+            elif voto == 6:
+                nulos = nulos +1
+            elif voto == 8:
+                brancos = brancos +1
+            else:
+                print("Número inválido! Voto não contabilizado")
+
+print("Resultado da Eleição:")
+print("\nCandidato 1: ", votos_c1 "votos")
+print("\nCandidato 1: ", votos_c2 "votos")
+print("\nCandidato 1: ", votos_c3 "votos")
+print("\nCandidato 1: ", votos_c4 "votos")
+print("\nTotal votos nulos: ", nulos)
+print("\nTotal votos brancos: ", brancos)
