@@ -142,7 +142,14 @@ else:
         desconto = 0.04
     else:
         desconto = 0.06
-        
+        preco_litro = gasolina
+
+        sem_desconto = litros_vendidos*preco_litro
+        desconto = sem_desconto*desconto
+        com_desconto = sem_desconto-desconto
+
+        print("Valor a ser pago com desconto: R$ ", com_desconto)
+        print("Valor do desconto: R$ ", desconto)
 
 
 

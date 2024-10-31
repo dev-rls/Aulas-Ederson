@@ -79,6 +79,7 @@
 # * Total de votos nulos;
 # * Total de votos brancos;
 
+
 c1 = 0
 c2 = 0
 c3 = 0
@@ -112,3 +113,4 @@ print("\nVotos canditado 03: ", c3)
 print("\nVotos canditado 04: ", c4)
 print("\nVotos Nulos: ", nulos)
 print("\nVotos Brancos: ", brancos)
+
