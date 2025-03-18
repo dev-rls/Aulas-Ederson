@@ -65,3 +65,30 @@ o parâmetro step da seguinte
 maneira; df.loc[start : stop:step].'''
 
 print(df.loc[10:30:2])
+
+'''Outra maneira de consultar e filtrar
+os dados é usando o método
+query(), que possui uma sintaxe
+semelhante as queries do SQL,
+usamos os operadores lógicos
+AND(&)e OR(|) e expressões
+lógicas (=, !=, >, <, >= e <=), para
+solicitar dados a partir de uma
+condição.
+O resultado da query é passado para
+um Dataframe.loc e então é nos
+retornado o resultado.'''
+
+print(df.query('Age_> 20').head())
+print(df.query('Age > 20'))
+
+'''Python-Pandas-query'''
+
+
+#df.query'('Age> 20 & Sex=="male").head()
+         
+''' Selecionando os passageiros com idade
+maior que 20 anos E sexo masculino
+
+Com o operador lógico & as duas condições
+precisam ser atendidas obrigatoriamente'''
