@@ -6,7 +6,7 @@
 
 # Saída: Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
-nome_vendedor = input("Digite o nome do vedendor: ")
+nome_vendedor = input("Digite o nome do vendedor: ")
 sal_fixo = float(input("Digite o salário fixo do vendedor: "))
 total_vendas = float(input("Digite o total de vendas efetuadas pelo vendedor: "))
 
